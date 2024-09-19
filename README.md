@@ -1,6 +1,6 @@
 # VRay Shader Creator
 
-This tool helps create a VRay Shader automatically by specifying a folder that has the texture maps.
+This tool helps create a VRay Shader automatically by specifying a folder that has the texture maps. 
 
 # Installation
 
@@ -31,6 +31,8 @@ Specular Roughness - Roughness.<UDIM>.exr
 
 > [!IMPORTANT]
 > **All textures must be in .exr format.**
+
+I have also added an export preset for Substance Painter that will export all the textures with correct naming conventions. 
 
 *Later script versions will allow to choose from other extensions.*
 
