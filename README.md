@@ -1,4 +1,3 @@
-
 # VRay Shader Creator
 
 This tool helps create a VRay Shader automatically by specifying a folder that has the texture maps.
@@ -20,21 +19,27 @@ This tool helps create a VRay Shader automatically by specifying a folder that h
 
 2. Provide a location to a folder with the textures in it.
 
-NOTE: This script only works with the following naming convention.
-
+> [!NOTE]
+> This script only works with the following naming convention.
+```
 Diffuse/Albedo - BaseColor.<UDIM>.exr
 Normal - Norma.<UDIM>.exr
 Bump - Height.<UDIM>.exr
 Metalness - Metallic.<UDIM>.exr
 Specular Roughness - Roughness.<UDIM>.exr
+```
 
-All textures must be in .exr format. Later script versions will allow to choose from other extensions.
+> [!IMPORTANT]
+> **All textures must be in .exr format.**
+
+*Later script versions will allow to choose from other extensions.*
 
 3. Check/Uncheck the texture types based on the shader you want to create and press Create Shader. The output window will display an echo of all the steps. If all goes well, there will be a new VRay Mtl shader created in the first slot of the Material Editor.
 
 ![Installation Toolbar](https://i.imgur.com/4GuA4v5.jpeg)
 
-NOTE: If you have a texture type checked and the texture maps are not in the folder, the tool will abort the shader creation process. 
+> [!WARNING]
+> If you have a texture type checked and the texture maps are not in the folder, the tool will abort the shader creation process. 
 
 For now, the tool only creates the shader in the Compact Material Editor. You can access the same Vray MTL shader in the Slate Material Editor by going to the Sample Slots and drag-dropping the shader into the graph editor. 
 
