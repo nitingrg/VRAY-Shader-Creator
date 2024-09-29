@@ -23,7 +23,7 @@ This tool helps create a VRay Shader automatically by specifying a folder that h
 > This script only works with the following naming convention.
 ```
 Diffuse/Albedo - BaseColor.<UDIM>.exr
-Normal - Norma.<UDIM>.exr
+Normal - Normal.<UDIM>.exr
 Bump - Height.<UDIM>.exr
 Metalness - Metallic.<UDIM>.exr
 Specular Roughness - Roughness.<UDIM>.exr
